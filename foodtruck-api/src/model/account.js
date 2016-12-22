@@ -4,12 +4,10 @@ import passportLocalMongoose from 'passport-local-mongoose';
 
 let AccountSchema = new Schema({
     email: {
-        type: String,
-        required: true
+        type: String
     },
     password: {
-        type: String,
-        required: true
+        type: String
     }
 });
 
